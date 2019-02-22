@@ -21,7 +21,7 @@ s_alloc()
 		free(sp);
 		return(NULL);
 	}
-	sem_unlink(sp->name);
+	sem_unlink(sp->name)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
 	return(sp);
 }
 
